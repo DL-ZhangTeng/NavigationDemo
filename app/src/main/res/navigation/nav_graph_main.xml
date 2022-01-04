@@ -12,7 +12,11 @@
             tools:layout="@layout/fragment_blank1">
         <action
                 android:id="@+id/action_blank1Fragment_to_blank2Fragment"
-                app:destination="@id/blank2Fragment" />
+                app:destination="@id/blank2Fragment"
+                app:enterAnim="@anim/self_enter_anim"
+                app:exitAnim="@anim/self_exit_anim"
+                app:popEnterAnim="@anim/self_pop_enter_anim"
+                app:popExitAnim="@anim/self_pop_exit_anim" />
     </fragment>
     <fragment
             android:id="@+id/blank2Fragment"
@@ -21,7 +25,11 @@
             tools:layout="@layout/fragment_blank2">
         <action
                 android:id="@+id/action_blank2Fragment_to_blank3Fragment"
-                app:destination="@id/blank3Fragment" />
+                app:destination="@id/blank3Fragment"
+                app:enterAnim="@anim/self_enter_anim"
+                app:exitAnim="@anim/self_exit_anim"
+                app:popEnterAnim="@anim/self_pop_enter_anim"
+                app:popExitAnim="@anim/self_pop_exit_anim" />
     </fragment>
     <fragment
             android:id="@+id/blank3Fragment"
@@ -30,7 +38,11 @@
             tools:layout="@layout/fragment_blank3">
         <action
                 android:id="@+id/action_blank3Fragment_to_blank4Fragment"
-                app:destination="@id/blank4Fragment" />
+                app:destination="@id/blank4Fragment"
+                app:enterAnim="@anim/self_enter_anim"
+                app:exitAnim="@anim/self_exit_anim"
+                app:popEnterAnim="@anim/self_pop_enter_anim"
+                app:popExitAnim="@anim/self_pop_exit_anim" />
     </fragment>
     <fragment
             android:id="@+id/blank4Fragment"

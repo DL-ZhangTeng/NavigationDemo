@@ -42,7 +42,7 @@ dependencies {
     implementation "android.arch.navigation:navigation-fragment:1.0.0"
     implementation "android.arch.navigation:navigation-ui:1.0.0"
 
-    implementation 'com.github.DL-ZhangTeng:BaseLibrary:v1.2.5'
+    implementation 'com.github.DL-ZhangTeng:BaseLibrary:v1.2.6'
 
     implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
     implementation 'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
