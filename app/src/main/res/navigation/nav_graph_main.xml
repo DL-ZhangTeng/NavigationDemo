@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph_main"
-    app:startDestination="@id/blank1Fragment"
-    tools:ignore="UnusedNavigation">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph_main"
+        app:startDestination="@id/blank1Fragment"
+        tools:ignore="UnusedNavigation">
     <fragment
-        android:id="@+id/blank1Fragment"
-        android:name="com.example.navigationdemo.Blank1Fragment"
-        android:label="fragment_blank1"
-        tools:layout="@layout/fragment_blank1" >
+            android:id="@+id/blank1Fragment"
+            android:name="com.example.navigationdemo.Blank1Fragment"
+            android:label="fragment_blank1"
+            tools:layout="@layout/fragment_blank1">
         <action
-            android:id="@+id/action_blank1Fragment_to_blank2Fragment"
-            app:destination="@id/blank2Fragment" />
+                android:id="@+id/action_blank1Fragment_to_blank2Fragment"
+                app:destination="@id/blank2Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/blank2Fragment"
-        android:name="com.example.navigationdemo.Blank2Fragment"
-        android:label="fragment_blank2"
-        tools:layout="@layout/fragment_blank2" >
+            android:id="@+id/blank2Fragment"
+            android:name="com.example.navigationdemo.Blank2Fragment"
+            android:label="fragment_blank2"
+            tools:layout="@layout/fragment_blank2">
         <action
-            android:id="@+id/action_blank2Fragment_to_blank3Fragment"
-            app:destination="@id/blank3Fragment" />
+                android:id="@+id/action_blank2Fragment_to_blank3Fragment"
+                app:destination="@id/blank3Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/blank3Fragment"
-        android:name="com.example.navigationdemo.Blank3Fragment"
-        android:label="fragment_blank3"
-        tools:layout="@layout/fragment_blank3" />
+            android:id="@+id/blank3Fragment"
+            android:name="com.example.navigationdemo.Blank3Fragment"
+            android:label="fragment_blank3"
+            tools:layout="@layout/fragment_blank3">
+        <action
+                android:id="@+id/action_blank3Fragment_to_blank4Fragment"
+                app:destination="@id/blank4Fragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/blank4Fragment"
+            android:name="com.example.navigationdemo.Blank4Fragment"
+            android:label="fragment_blank4"
+            tools:layout="@layout/fragment_blank4" />
 </navigation>
